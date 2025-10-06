@@ -5,7 +5,7 @@ This repository is a perfect starting point for anyone exploring **Data Structur
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
 ```
 Sorting_Algorithms/
