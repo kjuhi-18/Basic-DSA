@@ -30,13 +30,64 @@ Sorting_Algorithms/
 
 ## 📊 Algorithms Included
 
-✨ **Bubble Sort** – Repeatedly swaps adjacent elements if they are in the wrong order.  
-📍 **Selection Sort** – Finds the smallest element and places it in the correct position.  
-✏️ **Insertion Sort** – Builds the sorted array one element at a time by inserting each new element into its correct place.
+Here are the sorting algorithms you'll learn and implement in this project. Each one has its own logic and use case, but all share the same goal — **arranging data in a specific order** (usually ascending or descending). ✨
 
-Each sorting algorithm is implemented **in two ways**:
-- 📦 Using **array indexing**  
-- 🧭 Using **pointers**
+---
+
+### 🔁 Bubble Sort  
+Bubble Sort is the simplest sorting algorithm and a great starting point for beginners.  
+- It works by **repeatedly comparing adjacent elements** and swapping them if they are in the wrong order.  
+- This process is repeated until the entire array is sorted.  
+- After each pass, the largest element "bubbles up" to its correct position at the end of the array.  
+
+📌 **Example:**  
+Original: `[5, 2, 4, 1]`  
+1st Pass: `[2, 4, 1, 5]`  
+2nd Pass: `[2, 1, 4, 5]`  
+3rd Pass: `[1, 2, 4, 5]` ✅ Sorted!
+
+👉 **Best for:** Learning how basic sorting works step-by-step.  
+👉 **Time Complexity:** O(n²) – not the fastest, but very easy to understand.
+
+---
+
+### 📍 Selection Sort  
+Selection Sort improves efficiency slightly by reducing unnecessary swaps.  
+- It **divides the array into a sorted and an unsorted part**.  
+- On each pass, it **selects the smallest element from the unsorted part** and swaps it with the first unsorted element.  
+- The sorted part grows from left to right until the entire array is sorted.
+
+📌 **Example:**  
+Original: `[5, 2, 4, 1]`  
+Step 1: `[1, 2, 4, 5]` (1 is placed first)  
+Step 2: `[1, 2, 4, 5]` (2 stays in place)  
+Step 3: `[1, 2, 4, 5]` (4 stays in place) ✅ Sorted!
+
+👉 **Best for:** Understanding how sorting can be done by **finding the smallest element** each time.  
+👉 **Time Complexity:** O(n²)
+
+---
+
+### ✏️ Insertion Sort  
+Insertion Sort mimics how we sort playing cards in our hands — by **inserting each element into its correct position** one by one.  
+- It builds the sorted array gradually, starting with one element.  
+- Each new element is **compared with the already sorted part** and inserted where it belongs.  
+- As a result, the sorted portion of the array grows with each iteration.
+
+📌 **Example:**  
+Original: `[5, 2, 4, 1]`  
+Step 1: `[2, 5, 4, 1]`  
+Step 2: `[2, 4, 5, 1]`  
+Step 3: `[1, 2, 4, 5]` ✅ Sorted!
+
+👉 **Best for:** Small datasets and scenarios where the data is **almost sorted**.  
+👉 **Time Complexity:** O(n²) (but faster than Bubble Sort for small or nearly sorted arrays)
+
+---
+
+Each algorithm is implemented **in two ways** in this repository:
+- 📦 **Using array indexing** – standard method with `[ ]` notation.  
+- 🧭 **Using pointers** – memory-efficient and a great way to understand how arrays work internally.
 
 ---
 
