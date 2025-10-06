@@ -7,22 +7,24 @@ This repository is a perfect starting point for anyone exploring **Data Structur
 
 ## 📂 Project Structure
 
+```
 Sorting_Algorithms/
 │
 ├── BubbleSort/
-│ ├── Bubblesort.c # Bubble Sort using arrays
-│ └── BubblesortPointers.c # Bubble Sort using pointers
+│   ├── Bubblesort.c                # Bubble Sort using arrays
+│   └── BubblesortPointers.c       # Bubble Sort using pointers
 │
 ├── InsertionSort/
-│ ├── Insertionsort.c # Insertion Sort using arrays
-│ └── InsertionsortPointers.c # Insertion Sort using pointers
+│   ├── Insertionsort.c            # Insertion Sort using arrays
+│   └── InsertionsortPointers.c    # Insertion Sort using pointers
 │
 ├── SelectionSort/
-│ ├── selection_sort.c # Selection Sort using arrays
-│ └── selection_sortPointers.c # Selection Sort using pointers
+│   ├── selection_sort.c           # Selection Sort using arrays
+│   └── selection_sortPointers.c   # Selection Sort using pointers
 │
-├── MenuDrivenProgram.c # Try all sorting algorithms interactively
+├── MenuDrivenProgram.c            # Try all sorting algorithms interactively
 └── README.md
+```
 
 ---
 
@@ -34,7 +36,7 @@ Sorting_Algorithms/
 
 Each sorting algorithm is implemented **in two ways**:
 - 📦 Using **array indexing**  
-- 🧭 Using **pointers**  
+- 🧭 Using **pointers**
 
 ---
 
@@ -51,8 +53,13 @@ gcc BubbleSort/Bubblesort.c -o bubblesort
 # Run the menu-driven program
 gcc MenuDrivenProgram.c -o sort_menu
 ./sort_menu
+```
 
-📚 Sample Output (Menu Driven Program)
+---
+
+## 📚 Sample Output (Menu Driven Program)
+
+```
 Please choose the action:
 1. Bubblesort
 2. Bubblesort with Pointers
@@ -71,17 +78,25 @@ Enter the 5 element of array: 9
 
 The sorted array is:
 2 9 12 34 45
-🌱 What You’ll Learn
+```
 
-✅ How basic sorting algorithms work step-by-step
-✅ Difference between pointer-based and index-based approaches
-✅ Writing clean, modular, and reusable C code
-✅ Building a menu-driven program to test algorithms interactively
+---
 
-🛠️ Next Steps
+## 🌱 What You’ll Learn
 
-💡 Add more sorting algorithms like Merge Sort or Quick Sort
-💡 Include time and space complexity details in comments
-💡 Create a program to compare the performance of all sorting algorithms
+✅ How basic sorting algorithms work step-by-step  
+✅ Difference between **pointer-based** and **index-based** approaches  
+✅ Writing clean, modular, and reusable C code  
+✅ Building a **menu-driven program** to test algorithms interactively  
 
-✨ Ready? Open the files, run the code, and start exploring the world of sorting algorithms today! ✨
+---
+
+## 🛠️ Next Steps
+
+💡 Add more sorting algorithms like **Merge Sort** or **Quick Sort**  
+💡 Include **time and space complexity** details in comments  
+💡 Create a program to compare the performance of all sorting algorithms  
+
+---
+
+✨ **Ready? Open the files, run the code, and start exploring the world of sorting algorithms today!** ✨
