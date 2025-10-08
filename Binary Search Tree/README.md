@@ -5,7 +5,7 @@ This beginner-friendly program demonstrates how a **Binary Search Tree (BST)** w
 
 ---
 
-## 🧠 What is a Binary Search Tree?
+## 🧠 What is a Binary Search Tree ?
 
 A **Binary Search Tree (BST)** is a hierarchical data structure where each node follows these simple rules:
 - The **left child** contains a value **smaller** than its parent.  
