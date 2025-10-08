@@ -1,6 +1,6 @@
 # 🌳 Binary Search Tree (BST) in C
 
-Welcome to the **Binary Search Tree Project!**🌱  
+Welcome to the **Binary Search Tree Project!** 🌱  
 This beginner-friendly program demonstrates how a **Binary Search Tree (BST)** works — including **node insertion**, **searching**, and **tree traversals** — implemented completely in **C**.  
 
 ---
