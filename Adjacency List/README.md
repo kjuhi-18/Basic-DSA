@@ -124,8 +124,4 @@ This mini project builds your foundation in:
 - How to manage **connections dynamically**  
 - The importance of **memory management and linked structures** in C  
 
----
-
-
-- ✅ Implement **DFS/BFS traversal** using the adjacency list  
 
