@@ -43,7 +43,7 @@ If you're starting your DSA journey or revising your fundamentals, this repo wil
 ## 📂 Folder Structure
 | Folder | Description |
 |--------|-------------|
-| Sorting_Algorithms | Basic sorting techniques |
+| Sorting_Algorithms | Bubble,Insertion,Selection Sort |
 | Advanced_Sorting_Algorithms | Quick & Merge Sort |
 | Searching_Techniques | Linear & Binary Search |
 | Linked Lists | SLL, DLL, CLL |
